@@ -1,0 +1,4 @@
+FROM ubuntu:22.04
+
+RUN --mount=type=secret,id=mysecret3 \
+  bash /run/secrets/mysecret3

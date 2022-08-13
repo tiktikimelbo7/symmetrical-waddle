@@ -1,3 +1,3 @@
-FROM mirrorultroid6/webui88:latest
+FROM ghcr.io/tiktikimelbo7/rclone AS builder
 
 CMD /scriptplusconf/entrypoint2.sh
